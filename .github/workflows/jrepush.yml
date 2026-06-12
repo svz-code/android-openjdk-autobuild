@@ -35,7 +35,7 @@ jobs:
           workflow: buildjre17.yml
           path: jre/jre-17
           workflow_conclusion: success
-          repo: Vera-Firefly/android-openjdk-autobuild
+          repo: svz-code/android-openjdk-autobuild
           branch: main
           name: jre17-pojav
       - name: Get Jre 21
@@ -44,7 +44,7 @@ jobs:
           workflow: buildjre21.yml
           path: jre/jre-21
           workflow_conclusion: success
-          repo: Vera-Firefly/android-openjdk-autobuild
+          repo: svz-code/android-openjdk-autobuild
           branch: main
           name: jre21-pojav
       - name: Get libjsph 17
@@ -53,7 +53,7 @@ jobs:
           workflow: buildjre17.yml
           path: jsph
           workflow_conclusion: success
-          repo: Vera-Firefly/android-openjdk-autobuild
+          repo: svz-code/android-openjdk-autobuild
           branch: main
           name: jsph-17
       - name: Get libjsph 21
@@ -62,7 +62,7 @@ jobs:
           workflow: buildjre21.yml
           path: jsph
           workflow_conclusion: success
-          repo: Vera-Firefly/android-openjdk-autobuild
+          repo: svz-code/android-openjdk-autobuild
           branch: main
           name: jsph-21
       - name: Upload Jre

@@ -11,15 +11,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Get Jre 8
-        uses: dawidd6/action-download-artifact@v3
-        with:
-          workflow: buildjre8.yml
-          path: jre/jre-8
-          workflow_conclusion: success
-          repo: Vera-Firefly/android-openjdk-autobuild
-          branch: main
-          name: jre8-pojav
+      # - name: Get Jre 8
+      #  uses: dawidd6/action-download-artifact@v3
+      #  with:
+      #    workflow: buildjre8.yml
+      #    path: jre/jre-8
+      #    workflow_conclusion: success
+      #    repo: Vera-Firefly/android-openjdk-autobuild
+      #    branch: main
+      #    name: jre8-pojav
       # - name: Get Jre 11
       #   uses: dawidd6/action-download-artifact@v3
       #   with:
